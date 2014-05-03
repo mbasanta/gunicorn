@@ -4,3 +4,5 @@
   when: gunicorn_install_method == "pip"
 - include: source.yml
   when: gunicorn_install_method == "source"
+- include: package.yml
+  when: gunicorn_install_method == "package"
