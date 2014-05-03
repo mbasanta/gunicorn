@@ -1,6 +1,6 @@
-# file: pip/tasks/main.yml
+# file: gunicorn/tasks/main.yml
 
-- include: package.yml
-  when: pip_install_method == "package"
-- include: installer.yml
-  when: pip_install_method == "installer"
+- include: pip.yml
+  when: gunicorn_install_method == "pip"
+- include: source.yml
+  when: gunicorn_install_method == "source"

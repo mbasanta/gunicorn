@@ -1,6 +1,6 @@
-## Ansible Pip playbook [![Build Status](https://travis-ci.org/mbasanta/pip.png)](https://travis-ci.org/mbasanta/pip)
+## Ansible Pip playbook [![Build Status](https://travis-ci.org/mbasanta/gunicorn.png)](https://travis-ci.org/mbasanta/gunicorn)
 
-This is a simple Ansible playbook that installs Pip from either source or the
+This is a simple Ansible playbook that installs gunicorn from either source or the
 get-pip.py installer.
 
 
